@@ -2,7 +2,7 @@
 
 int main() {
     int alertas = 3;
-    std::cout << "Alertas registradas: " << alertas << '\n'
+    std::cout << "Alertas registradas: " << alertas << '\n';
 
     if (alertas >= 3) {
         std::cout << "Estado: ATENCION\n";
