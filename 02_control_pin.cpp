@@ -7,7 +7,7 @@ int main() {
     std::cout << "Introduce el PIN: ";
     std::cin >> pinIngresado;
 
-    if (pinIngresado = PIN_CORRECTO) {
+    if (pinIngresado = PIN_CORRECTO) { // en vez de = hay que poner ==
         std::cout << "Acceso permitido\n";
     } else {
         std::cout << "Acceso denegado\n";
